@@ -30,7 +30,7 @@ Una lista de las funcionalidades clave que ofrece tu herramienta.
 
 Instrucciones claras y paso a paso sobre cómo instalar y configurar tu herramienta. Considera diferentes métodos (conda, pip, desde el código fuente, etc.).
 
-### Requisitos
+### Requisitosj
 
 * Python 3.x
 * Samtools
