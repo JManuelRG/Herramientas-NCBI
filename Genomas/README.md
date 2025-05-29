@@ -6,7 +6,7 @@ Este repositorio contiene un notebook de Google Colab que permite comparar varia
 - Descargar genomas completos en formato FASTA desde NCBI Assembly.
 - Comparar secuencias utilizando alineamiento global o local (BLAST).
 - Identificar mutaciones entre variantes, incluyendo si son codificantes y si afectan la secuencia proteica.
-- (Opcional) Construir árboles filogenéticos.
+
 
 ## 🔗 Acceso rápido
 
