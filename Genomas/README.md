@@ -53,7 +53,6 @@ Variante 2: Ebola virus/H. sapiens-tc/COD/1995/Kikwit-9510623
 
 ### Paso 5: Ejecutar el codigo en google colab e ingresar el nombre de las dos variantes
 
-
-
+Posterior a estó se ejecutará el programa, realizando el analisis genomico de las dos variantes virales proporcionadas.
 
 
