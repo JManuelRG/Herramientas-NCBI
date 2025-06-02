@@ -48,8 +48,9 @@ Dentro de los resultados, el script buscará en la sección *Assembly* las difer
 ### Paso 4: Identificación de las dos variantes a comparar 
 
 Copiar los nombres completos de variantes que serán comparadas en el codigo, por ejemplo:
-Vaariante 1: Ebola virus Makona isolate Frankfurt
-Variante 2: Ebola virus/H. sapiens-tc/COD/1995/Kikwit-9510623
+- **_Variante 1:_** **_Ebola virus Makona isolate Frankfurt_**  
+- **_Variante 2:_** **_Ebola virus/H. sapiens-tc/COD/1995/Kikwit-9510623_**
+
 
 ### Paso 5: Ejecutar el codigo en google colab e ingresar el nombre de las dos variantes
 
