@@ -26,6 +26,31 @@ Si deseas ejecutarlo localmente, asegúrate de tener instalado:
 - Requests
 - pandas
 - matplotlib
+- 
+## Instrucciones de Uso
+
+Este script permite acceder a la base de datos Genome del NCBI para buscar genomas de virus específicos y descargar las secuencias de las cepas (isolates) disponibles en la sección *Assembly*. 
+
+A continuación se explica cómo utilizar el código con un ejemplo práctico para el virus **Ebola**.
+
+---
+
+### Paso 1: Acceso a la página Genome del NCBI
+
+El código está configurado para conectarse directamente a la sección *Genome* de NCBI:  
+[https://www.ncbi.nlm.nih.gov/genome/](https://www.ncbi.nlm.nih.gov/genome/)
+
+### Paso 2: Búsqueda del virus
+
+Se debe ingresar el nombre del virus a buscar. Por ejemplo, para buscar genomas de **Ebola**, el código realizará la consulta con la palabra clave `"Ebola"`.
+
+### Paso 3: Listado de variantes (isolates) en Assembly
+
+Dentro de los resultados, el script buscará en la sección *Assembly* las diferentes variantes o isolates disponibles para ese virus.
+
+### Paso 4: Descarga de los genomas
+
+Para cada isolate detectado, el código descargará la secuencia del genoma completo en formato FASTA desde el enlace de "View Genbank sequences".
 
 
 
