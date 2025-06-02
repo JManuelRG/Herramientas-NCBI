@@ -15,7 +15,6 @@ Este repositorio contiene un notebook de Google Colab que permite comparar varia
 ## 📁 Contenido del repositorio
 
 
-## ⚙️ Requisitos
 
 El notebook está diseñado para ejecutarse directamente en **Google Colab**, por lo que no necesitas instalar nada localmente. Solo necesitas una cuenta de Google y conexión a internet.
 
