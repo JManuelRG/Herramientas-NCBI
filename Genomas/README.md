@@ -1,4 +1,4 @@
-# 🧬 Comparación de Variantes de Virus en Google Colab
+#  Comparación de Variantes de Virus en Google Colab
 
 Este repositorio contiene un notebook de Google Colab que permite comparar variantes virales a partir de sus secuencias genómicas completas. Utiliza datos del **NCBI (National Center for Biotechnology Information)** y herramientas de bioinformática para:
 
@@ -9,13 +9,13 @@ Este repositorio contiene un notebook de Google Colab que permite comparar varia
 
 ---
 
-## 🔗 Acceso rápido
+##  Acceso rápido
 
 [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/tu-usuario/tu-repo/blob/main/comparacion_variantes.ipynb)
 
 ---
 
-## 📁 Contenido del repositorio
+##  Contenido del repositorio
 
 El notebook está diseñado para ejecutarse directamente en **Google Colab**, por lo que no necesitas instalar nada localmente. Solo necesitas una cuenta de Google y conexión a internet.
 
