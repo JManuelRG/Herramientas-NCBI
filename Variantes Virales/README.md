@@ -11,8 +11,6 @@ Este módulo implementa un pipeline automatizado en Python 3 para el **análisis
 
 El módulo fue desarrollado en **Google Colaboratory** y está diseñado para ser reproducible y accesible sin configuración de entorno local.
 
-## Para acceder al codigo ingresar en el siguente link: https://colab.research.google.com/drive/16qmg33ohLABVYjdSdGbmhSpZXqd3VA13#scrollTo=3z4IShLxcG01
-
 ---
 
 ## ⚙️ Dependencias
