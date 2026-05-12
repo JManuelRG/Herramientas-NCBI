@@ -4,6 +4,8 @@
 > Proyecto académico de tesis | Jupyter Notebook | Google Colaboratory
 
 ---
+## [Código de la Herramienta](https://github.com/JManuelRG/Herramientas-NCBI/blob/main/Interacci%C3%B3n%20F%C3%A1rmaco-Prote%C3%ADna/Interacci%C3%B3n_farmaco_proteina.ipynb)
+
 
 ## 📋 Descripción
 
