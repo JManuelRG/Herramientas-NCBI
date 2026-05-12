@@ -116,7 +116,7 @@ Variantes Virales/
 
 ---
 
-## 🚀 Cómo usar el módulo
+##  Cómo usar el módulo
 
 1. Abrir el notebook en **Google Colaboratory**
 2. Ejecutar la celda de instalación de dependencias
@@ -135,8 +135,5 @@ Variantes Virales/
 
 ---
 
-## 👤 Autor
-
-**J. Manuel R. G.**  
-Proyecto de tesis académica  
+Proyecto Terminal
 Repositorio: [Herramientas-NCBI](https://github.com/JManuelRG/Herramientas-NCBI)
