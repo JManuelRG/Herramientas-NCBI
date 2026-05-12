@@ -4,6 +4,7 @@
 > Proyecto Terminal | Jupyter Notebook | Google Colaboratory
 
 ---
+## [Código de la Herramienta](https://github.com/JManuelRG/Herramientas-NCBI/blob/main/An%C3%A1lisis%20Filogen%C3%A9tico/Arbol_filogenetico.ipynb)
 
 ## 📋 Descripción
 
@@ -123,7 +124,7 @@ Panel de 7 genes *housekeeping* (Bartual, 2005):
 ```
 Análisis Filogenético/
 │
-├── analisis_filogenetico.ipynb   # Notebook principal del módulo
+├── [analisis_filogenetico.ipynb](https://github.com/JManuelRG/Herramientas-NCBI/blob/main/An%C3%A1lisis%20Filogen%C3%A9tico/Arbol_filogenetico.ipynb)   # Notebook principal del módulo
 └── README.md                     # Este archivo
 ```
 
