@@ -1,7 +1,7 @@
 # 🌿 Módulo: Análisis Filogenético con MLSA
 
 > **Plataforma Web para la Manipulación, Visualización y Análisis de Datos Bioinformáticos con Aplicaciones en la Industria Farmacéutica**  
-> Proyecto académico de tesis | Jupyter Notebook | Google Colaboratory
+> Proyecto Terminal | Jupyter Notebook | Google Colaboratory
 
 ---
 
