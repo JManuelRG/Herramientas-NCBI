@@ -3,6 +3,11 @@
 > **Proyecto Terminal — Ingeniería Farmacéutica**  
 > Diseño de una Plataforma Web para la Manipulación, Visualización y Análisis de Datos Bioinformáticos con Aplicaciones en la Industria Farmacéutica
 
+## 👤 Autores:
+>    Presenta: Fernando López Machaén
+>
+> Asesores: Dr. José Manuel Rivera Garnica, Dra. Ma. Guadalupe Rojas Torres.
+
 ---
 
 ## 📌 Descripción general
@@ -27,12 +32,9 @@ Herramientas-NCBI/
 │   └── README.md
 │
 ├── 📁 Interacción Fármaco-Proteína/
-│   ├── interaccion_farmaco_proteina.ipynb
-│   └── README.md
-│
-├── Imagenes
-├── LICENSE
-└── README.md
+    ├── interaccion_farmaco_proteina.ipynb
+    └── README.md
+
 ```
 
 ---
@@ -149,8 +151,6 @@ Este proyecto se distribuye bajo la licencia **MIT**. Consulta el archivo [`LICE
 
 ---
 
-## 👤 Autor
 
-**J. Manuel R. G.**  
-Proyecto Terminal — Ingeniería Farmacéutica  
+
 [![GitHub](https://img.shields.io/badge/GitHub-JManuelRG-181717?logo=github)](https://github.com/JManuelRG)
