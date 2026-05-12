@@ -158,8 +158,5 @@ Análisis Filogenético/
 
 ---
 
-## 👤 Autor
-
-**J. Manuel R. G.**  
-Proyecto de tesis académica  
+Proyecto Terminal
 Repositorio: [Herramientas-NCBI](https://github.com/JManuelRG/Herramientas-NCBI)
