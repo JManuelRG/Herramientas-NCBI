@@ -9,9 +9,9 @@
 
 ## 📋 Descripción
 
-Este módulo implementa un pipeline automatizado en Python 3 para el **análisis de interacciones moleculares entre un fármaco y su proteína blanco**. A partir del nombre de un fármaco, el módulo identifica automáticamente su target molecular, recupera la estructura cristalográfica correspondiente desde la base de datos **RCSB PDB**, procesa el archivo estructural y caracteriza todas las interacciones moleculares entre el ligando y los residuos del sitio de unión, incluyendo una **visualización tridimensional** del complejo fármaco-proteína.
+Este módulo implementa un pipeline automatizado en Python 3 para el análisis de interacciones moleculares entre un fármaco y su proteína blanco. A partir del nombre de un fármaco, el módulo identifica automáticamente su target molecular, recupera la estructura cristalográfica correspondiente desde la base de datos RCSB PDB, procesa el archivo estructural y caracteriza todas las interacciones moleculares entre el ligando y los residuos del sitio de unión, incluyendo una visualización tridimensional del complejo fármaco-proteína.
 
-El módulo fue desarrollado en **Google Colaboratory** y está diseñado para ser reproducible sin configuración de entorno local.
+El módulo fue desarrollado en Google Colaboratory y está diseñado para ser reproducible sin configuración de entorno local.
 
 ---
 
@@ -36,12 +36,12 @@ Las siguientes librerías son instaladas automáticamente mediante `pip` al inic
 ## 🔬 Metodología
 
 ### 1. Entrada y recuperación del target molecular
-- El módulo recibe como entrada el **nombre del fármaco**
-- Identifica automáticamente su **proteína blanco (target)** y el **mecanismo de acción**
-- Recupera el **código PDB** de la estructura cristalográfica del complejo fármaco-proteína y el identificador del ligando en la estructura
+- El módulo recibe como entrada el nombre del fármaco
+- Identifica automáticamente su proteína blanco (target) y el mecanismo de acción
+- Recupera el código PDB de la estructura cristalográfica del complejo fármaco-proteína y el identificador del ligando en la estructura
 
 ### 2. Descarga y procesamiento de la estructura
-- Descarga automática del archivo `.pdb` desde los servidores del **RCSB Protein Data Bank**
+- Descarga automática del archivo `.pdb` desde los servidores del RCSB Protein Data Bank
 - Procesamiento de la estructura para localizar el ligando y los residuos del sitio de unión
 
 ### 3. Análisis de interacciones moleculares
@@ -64,7 +64,7 @@ El módulo identifica y clasifica los siguientes tipos de interacciones entre el
 
 ## 💉 Caso de uso: Imatinib – BCR-ABL (Leucemia Mieloide Crónica)
 
-Para validar el módulo se analizó el **imatinib**, inhibidor de tirosina quinasa utilizado en el tratamiento de la leucemia mieloide crónica (Buchdunger, 2002).
+Para validar el módulo se analizó el imatinib, inhibidor de tirosina quinasa utilizado en el tratamiento de la leucemia mieloide crónica (Buchdunger, 2002).
 
 ### Identificación automática del target
 
@@ -78,7 +78,7 @@ Para validar el módulo se analizó el **imatinib**, inhibidor de tirosina quina
 
 ### Resumen de interacciones identificadas
 
-Se identificaron un total de **24 interacciones** entre el imatinib y los residuos del sitio de unión:
+Se identificaron un total de 24 interacciones entre el imatinib y los residuos del sitio de unión:
 
 | Tipo de interacción | Número de residuos |
 |---|---|
@@ -92,7 +92,7 @@ Se identificaron un total de **24 interacciones** entre el imatinib y los residu
 
 ### Residuos del sitio de captación de ATP
 
-De las 24 interacciones identificadas, **7 residuos** participan directamente en el sitio de unión al ATP de la quinasa:
+De las 24 interacciones identificadas, 7 residuos participan directamente en el sitio de unión al ATP de la quinasa:
 
 | Residuo | Relevancia clínica |
 |---|---|
@@ -104,10 +104,10 @@ De las 24 interacciones identificadas, **7 residuos** participan directamente en
 | `MET318` | Sitio de unión al ATP |
 | `ASP381` | Sitio de unión al ATP |
 
-> Las mutaciones sobre estos residuos constituyen el **principal mecanismo de resistencia al imatinib** en pacientes con leucemia mieloide crónica. La identificación computacional de estos residuos clave permite anticipar posibles sitios de resistencia sin necesidad de ensayos fenotípicos adicionales (Gambacorti-Passerini, 2013).
+> Las mutaciones sobre estos residuos constituyen el principal mecanismo de resistencia al imatinib en pacientes con leucemia mieloide crónica. La identificación computacional de estos residuos clave permite anticipar posibles sitios de resistencia sin necesidad de ensayos fenotípicos adicionales (Gambacorti-Passerini, 2013).
 
 ### Relevancia farmacéutica
-El imatinib estabiliza la conformación **inactiva** de BCR-ABL compitiendo con el ATP por su sitio de unión, lo que bloquea la autofosforilación de la enzima e inhibe la señalización proliferativa característica de la leucemia mieloide crónica. Las 24 interacciones identificadas son consistentes con la red de contactos moleculares descrita por Nagar et al. (2007).
+El imatinib estabiliza la conformación inactiva de BCR-ABL compitiendo con el ATP por su sitio de unión, lo que bloquea la autofosforilación de la enzima e inhibe la señalización proliferativa característica de la leucemia mieloide crónica. Las 24 interacciones identificadas son consistentes con la red de contactos moleculares descrita por Nagar et al. (2007).
 
 ---
 
@@ -124,9 +124,9 @@ Interacción Fármaco-Proteína/
 
 ## 🚀 Cómo usar el módulo
 
-1. Abrir el notebook en **Google Colaboratory**
+1. Abrir el notebook en Google Colaboratory
 2. Ejecutar la celda de instalación de dependencias
-3. Ingresar el **nombre del fármaco** cuando el módulo lo solicite
+3. Ingresar el nombre del fármaco cuando el módulo lo solicite
 4. Ejecutar las celdas en orden secuencial
 5. El módulo generará automáticamente:
    - Identificación del target molecular y mecanismo de acción
