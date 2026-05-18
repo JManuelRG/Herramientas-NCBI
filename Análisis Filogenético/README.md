@@ -8,9 +8,9 @@
 
 ## 📋 Descripción
 
-Este módulo implementa un pipeline automatizado en Python 3 para la **reconstrucción filogenética de especies bacterianas** mediante el enfoque de *Multilocus Sequence Analysis* (MLSA). A partir del nombre de una especie bacteriana, el módulo valida su clasificación taxonómica, identifica automáticamente su esquema MLSA en **PubMLST**, descarga las secuencias de los genes *housekeeping* desde **GenBank (NCBI)**, y genera un árbol filogenético por el método **Neighbor-Joining**, junto con una **matriz de presencia y conservación génica** que incluye genes de resistencia a antibióticos.
+Este módulo implementa un pipeline automatizado en Python 3 para la reconstrucción filogenética de especies bacterianas mediante el enfoque de Multilocus Sequence Analysis (MLSA). A partir del nombre de una especie bacteriana, el módulo valida su clasificación taxonómica, identifica automáticamente su esquema MLSA en PubMLST, descarga las secuencias de los genes housekeeping desde GenBank (NCBI), y genera un árbol filogenético por el método Neighbor-Joining, junto con una matriz de presencia y conservación génica que incluye genes de resistencia a antibióticos.
 
-El módulo fue desarrollado en **Google Colaboratory** y está diseñado para ser reproducible sin configuración de entorno local.
+El módulo fue desarrollado en Google Colaboratory y está diseñado para ser reproducible sin configuración de entorno local.
 
 ---
 
@@ -39,12 +39,12 @@ Las siguientes librerías son instaladas automáticamente mediante `pip` al inic
 - Valida automáticamente su clasificación taxonómica (dominio, filo, clase, orden, familia, género) mediante consulta a NCBI Taxonomy
 
 ### 2. Identificación del esquema MLSA
-- Consulta automática a **PubMLST** para obtener el panel de genes *housekeeping* definido para la especie
-- Los genes con **cobertura menor al 50%** entre las especies analizadas son descartados automáticamente del análisis
+- Consulta automática a PubMLST para obtener el panel de genes *housekeeping* definido para la especie
+- Los genes con cobertura menor al 50% entre las especies analizadas son descartados automáticamente del análisis
 
 ### 3. Descarga de secuencias
-- Búsqueda y descarga de secuencias de cada gen desde **GenBank** mediante `Entrez.esearch` y `Entrez.efetch`
-- Las secuencias son concatenadas para cada organismo, generando un **supergen MLSA**
+- Búsqueda y descarga de secuencias de cada gen desde GenBank mediante `Entrez.esearch` y `Entrez.efetch`
+- Las secuencias son concatenadas para cada organismo, generando un supergen MLSA
 
 ### 4. Selección del modelo de sustitución
 El módulo selecciona automáticamente el modelo de distancias genéticas según la distancia media del ingroup:
@@ -55,19 +55,19 @@ El módulo selecciona automáticamente el modelo de distancias genéticas según
 | > 0.15 sustituciones/sitio | Kimura de dos parámetros (K2P) |
 
 ### 5. Reconstrucción filogenética
-- Algoritmo **Neighbor-Joining** sobre la matriz de distancias K2P/JC
-- Selección automática del **outgroup**: género distinto dentro de la misma familia taxonómica
+- Algoritmo Neighbor-Joining sobre la matriz de distancias K2P/JC
+- Selección automática del outgroup: género distinto dentro de la misma familia taxonómica
 - Árbol visualizado con `Matplotlib`
 
 ### 6. Matriz de presencia y conservación génica
-- Incluye los genes MLSA del panel y **genes de resistencia a antibióticos** identificados en el genoma de referencia
+- Incluye los genes MLSA del panel y genes de resistencia a antibióticos identificados en el genoma de referencia
 - Los porcentajes de identidad se calculan respecto a la especie de referencia ingresada
 
 ---
 
 ## 🦠 Caso de uso: *Acinetobacter baumannii*
 
-Para validar el módulo se utilizó *Acinetobacter baumannii*, patógeno nosocomial clasificado por la OMS como **prioridad crítica** por su amplio espectro de resistencia antimicrobiana.
+Para validar el módulo se utilizó *Acinetobacter baumannii*, patógeno nosocomial clasificado por la OMS como prioridad crítica por su amplio espectro de resistencia antimicrobiana.
 
 ### Validación taxonómica automática
 
@@ -132,9 +132,9 @@ Análisis Filogenético/
 
 ## 🚀 Cómo usar el módulo
 
-1. Abrir el notebook en **Google Colaboratory**
+1. Abrir el notebook en Google Colaboratory
 2. Ejecutar la celda de instalación de dependencias
-3. Ingresar el **nombre de la especie bacteriana** cuando el módulo lo solicite
+3. Ingresar el nombre de la especie bacteriana cuando el módulo lo solicite
 4. Ejecutar las celdas en orden secuencial
 5. El módulo generará automáticamente:
    - Validación taxonómica
