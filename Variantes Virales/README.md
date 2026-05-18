@@ -8,9 +8,9 @@
 
 ## 📋 Descripción
 
-Este módulo implementa un pipeline automatizado en Python 3 para el **análisis comparativo de variantes nucleotídicas entre dos aislados virales**. A partir del nombre de los aislados, el módulo realiza la búsqueda y descarga automática de sus genomas desde la base de datos **GenBank (NCBI)**, ejecuta un alineamiento global y calcula un conjunto de métricas evolutivas y filogenéticas.
+Este módulo implementa un pipeline automatizado en Python 3 para el análisis comparativo de variantes nucleotídicas entre dos aislados virales. A partir del nombre de los aislados, el módulo realiza la búsqueda y descarga automática de sus genomas desde la base de datos GenBank (NCBI), ejecuta un alineamiento global y calcula un conjunto de métricas evolutivas y filogenéticas.
 
-El módulo fue desarrollado en **Google Colaboratory** y está diseñado para ser reproducible y accesible sin configuración de entorno local.
+El módulo fue desarrollado en Google Colaboratory y está diseñado para ser reproducible y accesible sin configuración de entorno local.
 
 ---
 
@@ -35,15 +35,15 @@ Las siguientes librerías son instaladas automáticamente mediante `pip` al inic
 ## 🔬 Metodología
 
 ### 1. Entrada de datos
-El módulo recibe como entrada los **nombres exactos de dos aislados virales**, tal como aparecen en la sección *Genome* del portal NCBI. Se recomienda seguir el procedimiento descrito en el manual de usuario del repositorio para identificar los nombres correctos.
+El módulo recibe como entrada los nombres exactos de dos aislados virales, tal como aparecen en la sección *Genome* del portal NCBI. Se recomienda seguir el procedimiento descrito en el manual de usuario del repositorio para identificar los nombres correctos.
 
 ### 2. Búsqueda y descarga de secuencias
 - **Búsqueda:** `Entrez.esearch` sobre la base de datos GenBank
 - **Descarga:** `Entrez.efetch` en formato `.fasta`
-- Se selecciona automáticamente el **genoma de mayor longitud disponible** para cada aislado
+- Se selecciona automáticamente el genoma de mayor longitud disponible para cada aislado
 
 ### 3. Alineamiento global
-- Algoritmo de **Needleman-Wunsch** (Kellis, 2010)
+- Algoritmo de Needleman-Wunsch (Kellis, 2010)
 - Implementado mediante `Bio.Align.PairwiseAligner`
 
 ### 4. Métricas calculadas
@@ -65,7 +65,7 @@ El módulo recibe como entrada los **nombres exactos de dos aislados virales**, 
 
 ## 🦠 Caso de uso: Ebolavirus
 
-Para validar el módulo se compararon dos aislados del **Ebolavirus**:
+Para validar el módulo se compararon dos aislados del Ebolavirus:
 
 | Aislado | Brote | Año | Región |
 |---|---|---|---|
@@ -98,7 +98,7 @@ Para validar el módulo se compararon dos aislados del **Ebolavirus**:
 > Los genes `sGP` y `SsGP` fueron excluidos del análisis Ka/Ks por no cumplir con el criterio mínimo de longitud requerido por el método de Nei-Gojobori, aunque sí fueron incluidos en el análisis de variantes nucleotídicas.
 
 **Selección natural (Ka/Ks):**
-- Todos los genes presentaron Ka/Ks < 1, indicando **selección purificante**
+- Todos los genes presentaron Ka/Ks < 1, indicando selección purificante
 - Valor más alto: gen `GP` (Ka/Ks = 0.108)
 - Valor más bajo: gen `VP30` (Ka/Ks = 0.000)
 
@@ -119,9 +119,9 @@ Variantes Virales/
 
 ##  Cómo usar el módulo
 
-1. Abrir el notebook en **Google Colaboratory**
+1. Abrir el notebook en Google Colaboratory
 2. Ejecutar la celda de instalación de dependencias
-3. Ingresar el **nombre exacto de los dos aislados virales** cuando el módulo lo solicite (consultar la sección *Genome* del NCBI y el manual de usuario del repositorio)
+3. Ingresar el nombre exacto de los dos aislados virales cuando el módulo lo solicite (consultar la sección *Genome* del NCBI y el manual de usuario del repositorio)
 4. Ejecutar las celdas en orden secuencial
 5. Los resultados se presentarán como tablas y gráficas directamente en el notebook
 
