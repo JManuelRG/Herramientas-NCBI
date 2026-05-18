@@ -12,7 +12,7 @@
 
 ## 📌 Descripción general
 
-Este repositorio contiene los módulos de análisis bioinformático desarrollados como proyecto terminal de la carrera de **Ingeniería Farmacéutica**. La plataforma está compuesta por tres módulos independientes programados en **Python 3** sobre **Google Colaboratory**, que integran bases de datos públicas de biología molecular (NCBI GenBank, PubMLST y RCSB PDB) para realizar análisis de relevancia en la investigación farmacéutica y clínica.
+Este repositorio contiene los módulos de análisis bioinformático desarrollados como proyecto terminal de la carrera de Ingeniería Farmacéutica. La plataforma está compuesta por tres módulos independientes programados en Python 3 sobre Google Colaboratory, que integran bases de datos públicas de biología molecular (NCBI GenBank, PubMLST y RCSB PDB) para realizar análisis de relevancia en la investigación farmacéutica y clínica.
 
 Cada módulo recibe datos de entrada mínimos del usuario (nombre de un organismo, un aislado viral o un fármaco) y ejecuta automáticamente pipelines de búsqueda, procesamiento y visualización de datos biológicos, sin requerir instalación de software adicional ni configuración de entorno local.
 
@@ -44,7 +44,7 @@ Herramientas-NCBI/
 ### 🦠 1. Análisis Comparativo de Variantes Virales
 [`📂 Ver módulo`](./Variantes%20Virales/)
 
-Pipeline para la comparación genómica de dos aislados virales. A partir de sus nombres, el módulo descarga automáticamente los genomas desde **GenBank**, realiza un alineamiento global por **Needleman-Wunsch** y calcula métricas evolutivas completas.
+Pipeline para la comparación genómica de dos aislados virales. A partir de sus nombres, el módulo descarga automáticamente los genomas desde GenBank, realiza un alineamiento global por Needleman-Wunsch y calcula métricas evolutivas completas.
 
 **Funcionalidades principales:**
 - Búsqueda y descarga automática de genomas desde NCBI GenBank (`Entrez.esearch` / `Entrez.efetch`)
@@ -61,7 +61,7 @@ Pipeline para la comparación genómica de dos aislados virales. A partir de sus
 ### 🌿 2. Análisis Filogenético con MLSA
 [`📂 Ver módulo`](./An%C3%A1lisis%20Filogen%C3%A9tico/)
 
-Pipeline para la reconstrucción filogenética de especies bacterianas mediante *Multilocus Sequence Analysis* (MLSA). Identifica automáticamente el esquema de genes *housekeeping* en **PubMLST**, descarga las secuencias desde **GenBank** y construye un árbol filogenético **Neighbor-Joining**, acompañado de una matriz de presencia y conservación génica con genes de resistencia a antibióticos.
+Pipeline para la reconstrucción filogenética de especies bacterianas mediante *Multilocus Sequence Analysis* (MLSA). Identifica automáticamente el esquema de genes *housekeeping* en PubMLST, descarga las secuencias desde GenBank y construye un árbol filogenético Neighbor-Joining, acompañado de una matriz de presencia y conservación génica con genes de resistencia a antibióticos.
 
 **Funcionalidades principales:**
 - Validación taxonómica automática vía NCBI Taxonomy
@@ -79,7 +79,7 @@ Pipeline para la reconstrucción filogenética de especies bacterianas mediante 
 ### 💊 3. Análisis de Interacciones Fármaco-Proteína
 [`📂 Ver módulo`](./Interacci%C3%B3n%20F%C3%A1rmaco-Prote%C3%ADna/)
 
-Pipeline para el análisis estructural de interacciones moleculares entre un fármaco y su proteína blanco. A partir del nombre del fármaco, identifica automáticamente el target molecular, descarga la estructura cristalográfica desde el **RCSB PDB** y caracteriza todas las interacciones moleculares del complejo, con visualización tridimensional.
+Pipeline para el análisis estructural de interacciones moleculares entre un fármaco y su proteína blanco. A partir del nombre del fármaco, identifica automáticamente el target molecular, descarga la estructura cristalográfica desde el RCSB PDB y caracteriza todas las interacciones moleculares del complejo, con visualización tridimensional.
 
 **Funcionalidades principales:**
 - Identificación automática del target molecular y mecanismo de acción
@@ -95,7 +95,7 @@ Pipeline para el análisis estructural de interacciones moleculares entre un fá
 
 ## ⚙️ Requisitos técnicos
 
-Todos los módulos están desarrollados para ejecutarse en **Google Colaboratory** sin configuración adicional. Las dependencias se instalan automáticamente al inicio de cada notebook.
+Todos los módulos están desarrollados para ejecutarse en Google Colaboratory sin configuración adicional. Las dependencias se instalan automáticamente al inicio de cada notebook.
 
 | Librería | Uso |
 |---|---|
@@ -110,7 +110,7 @@ Todos los módulos están desarrollados para ejecutarse en **Google Colaboratory
 ## 🚀 Cómo ejecutar los módulos
 
 1. Hacer clic en el notebook `.ipynb` de la carpeta del módulo deseado
-2. Abrir en **Google Colaboratory** (botón _Open in Colab_ o desde el menú de GitHub)
+2. Abrir en Google Colaboratory (botón _Open in Colab_ o desde el menú de GitHub)
 3. Ejecutar la celda de instalación de dependencias
 4. Ingresar los datos de entrada solicitados:
    - **Variantes Virales:** nombres exactos de dos aislados virales (obtenidos desde la sección *Genome* del NCBI)
