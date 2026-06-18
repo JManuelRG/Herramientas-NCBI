@@ -1,7 +1,7 @@
 # 💊 Módulo: Análisis de Interacciones Fármaco-Proteína
 
 > **Plataforma Web para la Manipulación, Visualización y Análisis de Datos Bioinformáticos con Aplicaciones en la Industria Farmacéutica**  
-> Proyecto académico de tesis | Jupyter Notebook | Google Colaboratory
+> Proyecto Terminal | Jupyter Notebook | Google Colaboratory
 
 ---
 ## [Código de la Herramienta](https://github.com/JManuelRG/Herramientas-NCBI/blob/main/Interacci%C3%B3n%20F%C3%A1rmaco-Prote%C3%ADna/Interacci%C3%B3n_farmaco_proteina.ipynb)
